@@ -343,8 +343,8 @@ ul {
   align-items: center;
   align-items: stretch;
   gap: 1rem;
-  padding: 1rem 0.5rem;
-  overflow-x: scroll;
+  /* padding: 1rem 0.5rem; */
+  /* overflow-x: scroll; */
 }
 /* .projects-card-container::-webkit-scrollbar-thumb {
   background: #888;
@@ -355,7 +355,8 @@ ul {
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
   border-radius: 25px;
   overflow: hidden;
-  min-width: 350px;
+  min-width: 280px;
+  max-width: 360px;
 }
 .card-logo {
   min-height: 200px;
