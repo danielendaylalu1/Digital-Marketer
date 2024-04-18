@@ -171,7 +171,7 @@ ul {
   gap: 1rem;
 }
 .icon {
-  width: 20px;
+  width: 30px;
 }
 .small-icon {
   width: 13px;
@@ -346,10 +346,7 @@ ul {
   /* padding: 1rem 0.5rem; */
   /* overflow-x: scroll; */
 }
-/* .projects-card-container::-webkit-scrollbar-thumb {
-  background: #888;
-  border-radius: 10px;
-} */
+
 .projects-card {
   /* border: 1px solid #666666; */
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
