@@ -146,7 +146,7 @@ ul {
 }
 .desc-content {
   max-width: 50%;
-  font-size: 1.85rem;
+  font-size: 1.5rem;
   font-weight: 300;
   line-height: 1.5;
   color: #282f3a;
@@ -249,12 +249,15 @@ ul {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+
   gap: 1rem;
 }
 .card {
   /* max-width: 50%; */
-  max-width: calc(50% - 1rem);
+  width: calc(50% - 1rem);
+  min-width: 160px;
+  /* max-width: 300px; */
   border: 1px solid #6666;
   padding: 1.5rem 1rem;
   display: flex;
@@ -265,7 +268,7 @@ ul {
   /* box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15); */
 }
 .card-icon {
-  width: 25px;
+  width: 35px;
 }
 .card-title {
   color: #282f3a;
@@ -309,6 +312,7 @@ ul {
 }
 .additional-card .card-content {
   font-size: 1rem;
+  line-height: 1.4;
   font-weight: 300;
   color: #666666;
   max-width: 350px;
