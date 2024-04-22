@@ -4,7 +4,7 @@ let navLinks = document.getElementsByClassName("nav-link");
 console.log(navLinks);
 
 menu.addEventListener("click", () => {
-  console.log("Clciked");
+  // console.log("Clciked");
   navbar.classList.toggle("show-nav");
 });
 
